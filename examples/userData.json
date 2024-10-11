@@ -1,0 +1,20 @@
+{
+    "token": "dawdawdiuqbgxyu2qiyuebashdjbayutfkise",
+    "user": {
+        "name": "RamonPontes",
+        "email": "",
+        "telephoneNumber": "",
+        "address": {
+            "cep": "84073000",
+            "street": "Rua Balduino Taques",
+            "number": "222",
+            "city": "Ponta Grossa",
+            "uf": "PR",
+            "complement": "Apartamento Nº111"
+        },
+        "cart": {
+            "23": "1",
+            "53": "4"  
+        }
+    }
+}

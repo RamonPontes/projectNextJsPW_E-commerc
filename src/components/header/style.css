@@ -1,0 +1,87 @@
+.header-container {
+    background-color: #3E79F7;
+    display: flex;
+    width: calc(100% - 60px);
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container > * {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: calc((100% - 40px) / 3);
+}
+
+.center-header {
+    gap: 19px;
+    align-items: center;
+}
+
+.header-container > section > h1 {
+    font-family: "Phudu", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+    font-style: normal;
+}
+
+.header-container > section > input {
+    width: 620px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
+
+.sections-header a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C6C6C6;
+    font-size: 20px;
+}
+
+.sections-header * {
+    margin: 0 23px;
+}
+
+
+.last-header {
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.user-option-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-option-header a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.user-option-header h1 {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.line-header {
+    background-color: white;
+    width: 3px;
+    height: 70px;
+}
+
