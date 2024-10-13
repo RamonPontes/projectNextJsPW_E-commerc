@@ -8,10 +8,7 @@ import { AuthContext } from '@/contexts/auth'
 
 export default function Header() {
     const [search, setSearch] = useState('')
-    const { Logged, userData, signIn } = useContext(AuthContext);
-    useEffect(() => {
-        signIn({ email: 'Ramon', password: '1234' });
-    }, []);
+    const { Logged, userData } = useContext(AuthContext);
 
     return (
         <div className="header-container">
@@ -32,8 +29,8 @@ export default function Header() {
             <section className='last-header'>
                 {Logged ? (
                     <div className="user-option-header">
-                        <h1 href="/pages/auth" style={{ fontWeight: '400', fontSize: '25px' }}>Seja Bem-vindo</h1>
-                        <h1 href="/pages/auth" style={{ fontWeight: 'bold', fontSize: '30px' }}>{userData.user.name}</h1>
+                        <h1 href="/pages/auth" style={{ fontWeight: '400', fontSize: '20px' }}>Seja Bem-vindo</h1>
+                        <h1 href="/pages/auth" style={{ fontWeight: 'bold', fontSize: '25px' }}>{userData.user.name}</h1>
                     </div>
                 ) : (
                     <div className="user-option-header">

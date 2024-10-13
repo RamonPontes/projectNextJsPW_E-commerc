@@ -1,10 +1,4 @@
-function delay() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve("Resposta simulada da API");
-        }, 1000);
-    });
-}
+const delay = (amount = 5000) => new Promise(resolve => setTimeout(resolve, amount))
 
 export async function signInAuth(data) {
     // link backEnd login
