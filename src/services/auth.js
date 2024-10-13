@@ -1,4 +1,4 @@
-const delay = (amount = 5000) => new Promise(resolve => setTimeout(resolve, amount))
+const delay = (amount = 1000) => new Promise(resolve => setTimeout(resolve, amount))
 
 export async function signInAuth(data) {
     // link backEnd login
