@@ -15,7 +15,9 @@ body {
     position: fixed;
     top: 50%; 
     left: 50%; 
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 50px 50px 10px rgba(0, 0, 0, 0.25);
+
 }
 
 .auth-container input::-webkit-input-placeholder {
@@ -28,8 +30,8 @@ body {
 
 .auth-login {
     width: 25%;
-    gap: 38px;
-    padding: 38px;
+    gap: 20px;
+    padding: 15px 50px;
     color: white;
     background-color: #3E79F7;
     border-radius: 21px 0 0 21px;
@@ -75,7 +77,7 @@ body {
 
 .auth-register {
     width: 75%;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     color: #3E79F7;
@@ -84,7 +86,7 @@ body {
 }
 
 .auth-register input {
-    padding: 26px;
+    padding: 20px;
     border: 1px solid black;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -118,4 +120,16 @@ body {
 .auth-login .auth-form input[type="button"]:disabled:hover,
 .auth-register .auth-form input[type="button"]:disabled:hover {
     transform: none;
+}
+
+/* .auth-message {
+    opacity: 0.8;
+} */
+
+.auth-message p {
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: WHITE;
 }
