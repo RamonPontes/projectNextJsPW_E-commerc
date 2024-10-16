@@ -33,9 +33,9 @@ export async function signInAuth(clientData) {
         }
     }
 
-    const status = "error"
-    const code = 401
-    const message = "E-mail ou senha inválidos."
+    const status = "success"
+    const code = 200
+    const message = "Login lo"
 
     const response = {
         data,

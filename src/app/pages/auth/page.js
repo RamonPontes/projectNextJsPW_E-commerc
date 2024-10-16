@@ -2,7 +2,7 @@
 
 import { useContext, useState, useEffect } from 'react'
 import { AuthContext } from '@/contexts/auth'
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation'
 import { LoadingContext } from '@/contexts/loading'
 import './style.css'
 
@@ -35,7 +35,6 @@ export default function Auth() {
         lsetCode('')
         lsetStatus('')
         lsetMessage('')
-
     }
 
     return (

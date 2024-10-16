@@ -1,0 +1,36 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-container img {
+    width: 100%;
+}
+
+.carousel-chevrons {
+    position: absolute;
+}
+
+.carousel-pointers {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    width: 100%;
+}
+
+.pointer {
+    width: 1vh;
+    height: 1vh;
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.pointer.active {
+    background-color: white; 
+}
